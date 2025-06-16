@@ -3,10 +3,9 @@
 ### [Website](http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion)
 
 ---
-
-GPG key (`ED64869256105CBEF642A7A253C1853B0D753C51`):
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+
 mDMEaE+7KRYJKwYBBAHaRw8BAQdAk6/elsSzeu371HhqP3P0F0gsDh/yp6Rnes7Y
 cpWsBNa0M3JlY2FubWFuIChnaXRodWIuY29tL3JlY2FubWFuKSA8cmVjYW5tYW5A
 a2VybmFsLmV1PoiWBBMWCgA+FiEE7WSGklYQXL72QqeiU8GFOw11PFEFAmhPuykC
