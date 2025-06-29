@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 0 1 * *'
   workflow_dispatch:
+permissions:
+  contents: write
 
 env:
   ONION_URL: "http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion"
