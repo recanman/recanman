@@ -68,7 +68,7 @@ Lastest Monero block height: $block_height ($block_hash)
 Website: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion
 PGP Key: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/pgp.txt
 Canary: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/canary
-Canary (mirror): https://gist.github.com/recanman/90f3591fde77a63532bb372a566e6e6a
+Canary (clearnet mirror): https://raw.githubusercontent.com/recanman/recanman/refs/heads/master/canary.txt
 
 GitHub: https://github.com/recanman
 XMRBazaar: https://xmrbazaar.com/user/recanman
