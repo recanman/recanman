@@ -1,0 +1,50 @@
+# made by recanman
+name: Mirror Warrant Canary
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+env:
+  ONION_URL: "http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion"
+  PGP_FINGERPRINT: "ED64869256105CBEF642A7A253C1853B0D753C51"
+jobs:
+  mirror-canary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y tor gnupg
+          sudo service tor start
+          sleep 10 # good enough
+
+      - run: |
+          curl -s --socks5-hostname 127.0.0.1:9050 "$ONION_URL/pgp.txt" -o key.asc
+          gpg --import key.asc
+
+      - run: |
+          EXPECTED_FINGERPRINT="$PGP_FINGERPRINT"
+          ACTUAL_FINGERPRINT=$(gpg --fingerprint | grep -E '^\s' | sed 's/^\s*//; s/\s*$//; s/ //g' | head -n 1)
+          if [ "$ACTUAL_FINGERPRINT" != "$EXPECTED_FINGERPRINT" ]; then
+            echo "PGP fingerprint verification failed!"
+            echo "Expected: $EXPECTED_FINGERPRINT"
+            echo "Actual: $ACTUAL_FINGERPRINT"
+            exit 1
+          fi
+
+      - run: |
+          curl -s --socks5-hostname 127.0.0.1:9050 "$ONION_URL/canary.txt" -o canary.txt
+          gpg --verify canary.txt
+          if [ $? -ne 0 ]; then
+            echo "warrant canary signature verification failed!"
+            exit 1
+          fi
+
+      - run: |
+          git config --global user.email "mirror-canary@example.com"
+          git config --global user.name "mirror-canary"
+          git add canary.txt
+          git commit -m "mirror canary [skip ci]" || echo "No changes to commit"
+          git push
