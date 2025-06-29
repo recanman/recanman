@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+recanman warrant canary
+=======================
+Last updated: 2025-06-29, next update before: 2025-09-29
+Lastest Monero block height: 3444251 (e697e12800271f165be6048bc9c709eddcd2365c4db24d64337f36b7d2f3ede3)
+
+=== Online Presence ===
+Website: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion
+PGP Key: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/pgp.txt
+Canary: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/canary
+Canary (mirror): https://gist.github.com/recanman/90f3591fde77a63532bb372a566e6e6a
+
+GitHub: https://github.com/recanman
+XMRBazaar: https://xmrbazaar.com/user/recanman
+Monero GitLab: https://repo.getmonero.org/recanman
+Matrix: @recanman:kernal.eu
+Email: recanman@kernal.eu
+
+=== Statements ===
+1. All of my infrastructure is in my control. The integrity of my systems are sound.
+
+2. I have not been compromised by any government or third party.
+
+3. I have not disclosed any private keys, passwords, or other sensitive information to any third party.
+
+4. I have not been served with a warrant, subpoena, or other legal request that would prevent me from releasing this canary, or from making the statements contained herein.
+
+5. My personal safety and security are not at risk, and I am not under duress.
+
+6. If this canary is not updated by 2025-09-29, or if this canary is removed, it will be considered a breach of the statements contained herein, and a signal that I may have been compromised or served with a legal request.
+
+=== Verification Instructions ===
+PGP fingerprint: ED64 8692 5610 5CBE F642 A7A2 53C1 853B 0D75 3C51
+
+1. Import my key: `gpg --import <path_to_my_key>`
+2. Verify the canary: `gpg --verify canary-2025-06-29.txt`
+
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTtZIaSVhBcvvZCp6JTwYU7DXU8UQUCaGCMYgAKCRBTwYU7DXU8
+UeqPAQC1Q1O+8bB69l5eBQ0r81i+X1sYhS1+7Nxm24jtoCoCwgD/d7EPaJw88ntq
+ZMj6iUd5e1Oki2iDaKO3OsXlhw8qGQc=
+=yUCR
+-----END PGP SIGNATURE-----
+
