@@ -3,14 +3,14 @@ Hash: SHA512
 
 recanman warrant canary
 =======================
-Last updated: 2025-06-29, next update before: 2025-09-29
-Lastest Monero block height: 3444251 (e697e12800271f165be6048bc9c709eddcd2365c4db24d64337f36b7d2f3ede3)
+Last updated: 2025-07-20, next update before: 2025-10-20
+Lastest Monero block height: 3459614 (4a6991a313a7ece0562307f26e9c6396e7062af4113bbe6064bf4d94b167eac4)
 
 === Online Presence ===
 Website: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion
-PGP Key: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/pgp.txt
-Canary: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/canary
-Canary (mirror): https://gist.github.com/recanman/90f3591fde77a63532bb372a566e6e6a
+PGP Key: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/pgp.txt
+Canary: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/canary
+Canary (clearnet mirror): https://raw.githubusercontent.com/recanman/recanman/refs/heads/master/canary.txt
 
 GitHub: https://github.com/recanman
 XMRBazaar: https://xmrbazaar.com/user/recanman
@@ -19,7 +19,7 @@ Matrix: @recanman:kernal.eu
 Email: recanman@kernal.eu
 
 === Statements ===
-1. All of my infrastructure is in my control. The integrity of my systems are sound.
+1. All of my infrastructure is in my control. The integrity of my systems is sound.
 
 2. I have not been compromised by any government or third party.
 
@@ -29,19 +29,18 @@ Email: recanman@kernal.eu
 
 5. My personal safety and security are not at risk, and I am not under duress.
 
-6. If this canary is not updated by 2025-09-29, or if this canary is removed, it will be considered a breach of the statements contained herein, and a signal that I may have been compromised or served with a legal request.
+6. If this canary is not updated by 2025-10-20, or if this canary is removed, it will be considered a breach of the statements contained herein, and a signal that I may have been compromised or served with a legal request.
 
 === Verification Instructions ===
 PGP fingerprint: ED64 8692 5610 5CBE F642 A7A2 53C1 853B 0D75 3C51
 
 1. Import my key: `gpg --import <path_to_my_key>`
-2. Verify the canary: `gpg --verify canary-2025-06-29.txt`
+2. Verify the canary: `gpg --verify canary-2025-07-20.txt`
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTtZIaSVhBcvvZCp6JTwYU7DXU8UQUCaGCMYgAKCRBTwYU7DXU8
-UeqPAQC1Q1O+8bB69l5eBQ0r81i+X1sYhS1+7Nxm24jtoCoCwgD/d7EPaJw88ntq
-ZMj6iUd5e1Oki2iDaKO3OsXlhw8qGQc=
-=yUCR
+iHUEARYKAB0WIQTtZIaSVhBcvvZCp6JTwYU7DXU8UQUCaHytXQAKCRBTwYU7DXU8
+UUQOAQCcRCglRndPtxMdhwTcuey/6Mzj01xc3IyQ8boYM7vAFQD8DDg4Lg2KVFzJ
+pXgZ4y/fZApad1LwGXixJiIy8GLIlAU=
+=BrPJ
 -----END PGP SIGNATURE-----
-
