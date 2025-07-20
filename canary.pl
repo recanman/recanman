@@ -66,8 +66,8 @@ Lastest Monero block height: $block_height ($block_hash)
 
 === Online Presence ===
 Website: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion
-PGP Key: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/pgp.txt
-Canary: https://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/canary
+PGP Key: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/pgp.txt
+Canary: http://recanman7nly4wwc5f2t2h55jnxsr7wo664o3lsydngwetvrguz4esid.onion/canary
 Canary (clearnet mirror): https://raw.githubusercontent.com/recanman/recanman/refs/heads/master/canary.txt
 
 GitHub: https://github.com/recanman
@@ -77,7 +77,7 @@ Matrix: \@recanman:kernal.eu
 Email: recanman\@kernal.eu
 
 === Statements ===
-1. All of my infrastructure is in my control. The integrity of my systems are sound.
+1. All of my infrastructure is in my control. The integrity of my systems is sound.
 
 2. I have not been compromised by any government or third party.
 
